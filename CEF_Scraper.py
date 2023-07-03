@@ -1,10 +1,8 @@
-# Import packages and define global CEFData dataframe
+# Import packages
 from datetime import date
+import time
 from selenium import webdriver
 import pandas as pd
-
-global CEFData
-CEFData = pd.DataFrame()
 
 def CEF_Webscrape():
     # Define the url to be searched from
@@ -23,7 +21,7 @@ def CEF_Webscrape():
     f1.close()
     driver.quit()
 
-    print('Webpage extracted successfully.')
+    print('(1/4) Webpage extracted successfully.')
 
 # Gather and save CEF daily pricing data
 CEF_Webscrape()
@@ -49,7 +47,7 @@ def CEF_Dataset(file_path):
     with open(new_file_path, 'w') as new_file:
         new_file.write(dataset)
 
-    print('Dataset extracted successfully.')
+    print('(2/4) Dataset extracted successfully.')
 
 # Reference the saved locaiton of the .txt file
 # e.g. r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\Raw JSON\DailyPricing.txt'
@@ -61,6 +59,8 @@ CEF_Dataset(file_path)
 def CEF_Cleaning():
     
     global CEFData
+    CEFData = pd.DataFrame()
+
     # Read the previously saved .json file into a pandas dataframe
     # V:\Resources\Research\CEF Database\v2 Archive\Raw JSON\DailyPricing_2023-06-29.json
     CEFData = pd.read_json(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\Raw JSON\DailyPricing_dataset.json', encoding='latin1')
@@ -80,32 +80,32 @@ def CEF_Cleaning():
 
     # Reorder the columns
     CEFData = CEFData[['Date', 'Ticker', 'Fund Name', 'Category', 'Share Price', 'NAV', 'Premium / Discount']]
-    return CEFData
-
+    print(CEFData.head())
+    
     # Export to individual CSV file
     # V:\Resources\Research\CEF Database\v2 Archive\CEF-Daily-Pricing-'
-    CEFData.to_csv(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
+    CEFData.to_csv(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\Daily Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
     
-    print('Dataset saved successfully.')
+    print('(3/4) Dataset saved successfully.')
+    return CEFData
 
 CEF_Cleaning()
 
 # Append to Consolidated CEF CSV file
-
 def CEF_Consolidating():
 
     # Append newly-compiled data to exising DailyPricing.csv consolidated worksheet
-    with open(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\DailyPricing.csv', 'r') as DailyPricing:
-        while True:
-            
-            # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet 
-            if pd.read_csv(DailyPricing)['Date'].iloc[0] == CEFData['Date'].iloc[0]:
-                print('Dataset previously consolidated to DailyPricing.csv')
-                break
+    with open(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\Daily Pricing\DailyPricing.csv', 'r') as DailyPricing:
+        
+        # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet 
+        if pd.read_csv(DailyPricing)['Date'].iloc[0] == CEFData['Date'].iloc[0]:
+            print('(4/4) Dataset previously consolidated to DailyPricing.csv')
+            exit()
         
         # If newly-compiled data does not exist (based on the last updated date), append to DailyPricing.csv consolidated worksheet 
         else:
-            CEFData.to_csv(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\DailyPricing.csv', mode='a', index=True, header=False)
-            print('Dataset consolidated to DailyPricing.csv')
+            CEFData.to_csv(r'C:\Users\delor\OneDrive\Desktop\Desktop\Programming\CEF Connect\CEF-Connect\Daily Pricing\DailyPricing.csv', mode='a', index=True, header=False)
+            print('(4/4) Dataset consolidated to DailyPricing.csv')
 
 CEF_Consolidating()
+time.sleep(5)
