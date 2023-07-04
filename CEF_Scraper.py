@@ -89,6 +89,7 @@ def CEF_Cleaning():
     print('(3/4) Dataset saved successfully.')
     return CEFData
 
+# Clean and organize the dataset
 CEF_Cleaning()
 
 # Append to Consolidated CEF CSV file
