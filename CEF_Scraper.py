@@ -5,26 +5,26 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager 
 import pandas as pd
 
-def CEF_Webscrape():
-
-    # Define the url to be searched from
-    url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
+def CEF_Webscrape(url):
 
     # Initalize the chrome web driver and reach out to the url
     options = Options()
-    options.add_argument("--headless=new")
+    options.add_argument('--headless=new')
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url)
 
     # Get the page's raw source content, write to to the 'DailyPricing.txt' file, and close the webdriver
     pagesource = driver.page_source
-    f1 = open(r'CEF-Connect\Raw JSON\DailyPricing.txt', 'w')
+    f1 = open(r'Raw JSON\DailyPricing.txt', 'w')
     f1.write(pagesource)
     f1.close()
     driver.quit()
 
     # Print helpful note
-    print('(1/4) Webpage extracted successfully.')
+    print('(1/4) Webpage extracted successfully')
+
+# Define the url to be searched from
+url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
 
 # Gather and save CEF daily pricing data
 CEF_Webscrape()
@@ -52,10 +52,10 @@ def CEF_Dataset(file_path):
         new_file.write(dataset)
 
     # Print helpful note
-    print('(2/4) Dataset extracted successfully.')
+    print('(2/4) Dataset extracted successfully')
 
 # Reference the locaiton of the 'DailyPricing.txt' file
-file_path = r'CEF-Connect\Raw JSON\DailyPricing.txt'
+file_path = r'Raw JSON\DailyPricing.txt'
 
 # Extract the dataset
 CEF_Dataset(file_path)
@@ -67,7 +67,7 @@ def CEF_Cleaning():
     CEFData = pd.DataFrame()
 
     # Read the previously saved .json file into a pandas DataFrame
-    CEFData = pd.read_json(r'CEF-Connect\Raw JSON\DailyPricing_dataset.json', encoding='latin1')
+    CEFData = pd.read_json(r'Raw JSON\DailyPricing_dataset.json', encoding='latin1')
 
     # Clean up the 'Date' Column
     CEFData['LastUpdated'] = CEFData['LastUpdated'].str.split('T').str[0]
@@ -87,10 +87,10 @@ def CEF_Cleaning():
     print(CEFData.head())
     
     # Export to individual CSV file
-    CEFData.to_csv(r'CEF-Connect\Daily Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
+    CEFData.to_csv(r'Daily Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
     
     # Print a helpful note, return the CEFData DataFrame to be accessed later
-    print('(3/4) Dataset saved successfully.')
+    print('(3/4) Dataset saved successfully')
     return CEFData
 
 # Clean and organize the dataset
@@ -99,7 +99,7 @@ CEF_Cleaning()
 def CEF_Consolidating():
 
     # Append newly-compiled data to exising DailyPricing.csv consolidated worksheet
-    with open(r'CEF-Connect\Daily Pricing\DailyPricing.csv', 'r') as DailyPricing:
+    with open(r'Daily Pricing\DailyPricing.csv', 'r') as DailyPricing:
         
         # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet, and print helpful note
         if pd.read_csv(DailyPricing)['Date'].iloc[-1] == CEFData['Date'].iloc[0]:
@@ -108,7 +108,7 @@ def CEF_Consolidating():
         
         # If newly-compiled data does not exist (based on the last updated date), append to DailyPricing.csv consolidated worksheet, and print helpful note
         else:
-            CEFData.to_csv(r'CEF-Connect\Daily Pricing\DailyPricing.csv', mode='a', index=True, header=False)
+            CEFData.to_csv(r'Daily Pricing\DailyPricing.csv', mode='a', index=True, header=False)
             print('(4/4) Dataset consolidated to DailyPricing.csv')
 
 # Append to Consolidated CEF CSV file
