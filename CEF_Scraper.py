@@ -21,13 +21,13 @@ def CEF_Webscrape(url):
     driver.quit()
 
     # Print helpful note
-    print('(1/4) Webpage extracted successfully')
+    print('[25%] Webpage extracted successfully...')
 
 # Define the url to be searched from
 url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
 
 # Gather and save CEF daily pricing data
-CEF_Webscrape()
+CEF_Webscrape(url)
 
 def CEF_Dataset(file_path):
 
@@ -52,7 +52,7 @@ def CEF_Dataset(file_path):
         new_file.write(dataset)
 
     # Print helpful note
-    print('(2/4) Dataset extracted successfully')
+    print('[50%] Dataset extracted successfully...')
 
 # Reference the locaiton of the 'DailyPricing.txt' file
 file_path = r'Raw JSON\DailyPricing.txt'
@@ -90,7 +90,7 @@ def CEF_Cleaning():
     CEFData.to_csv(r'Daily Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
     
     # Print a helpful note, return the CEFData DataFrame to be accessed later
-    print('(3/4) Dataset saved successfully')
+    print('[75%] Dataset saved successfully...')
     return CEFData
 
 # Clean and organize the dataset
@@ -103,13 +103,13 @@ def CEF_Consolidating():
         
         # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet, and print helpful note
         if pd.read_csv(DailyPricing)['Date'].iloc[-1] == CEFData['Date'].iloc[0]:
-            print('(4/4) Dataset previously consolidated to DailyPricing.csv')
+            print('[100%] Dataset previously consolidated to DailyPricing.csv')
             exit()
         
         # If newly-compiled data does not exist (based on the last updated date), append to DailyPricing.csv consolidated worksheet, and print helpful note
         else:
             CEFData.to_csv(r'Daily Pricing\DailyPricing.csv', mode='a', index=True, header=False)
-            print('(4/4) Dataset consolidated to DailyPricing.csv')
+            print('[100%] Dataset consolidated to DailyPricing.csv')
 
 # Append to Consolidated CEF CSV file
 CEF_Consolidating()
