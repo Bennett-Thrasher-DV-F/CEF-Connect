@@ -5,6 +5,12 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager 
 import pandas as pd
 
+# Define the url to be searched from
+url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
+
+# Reference the locaiton of the 'DailyPricing.txt' file
+file_path = r'Raw JSON\DailyPricing.txt'
+
 def CEF_Webscrape(url):
 
     # Initalize the chrome web driver and reach out to the url
@@ -22,9 +28,6 @@ def CEF_Webscrape(url):
 
     # Print helpful note
     print('[25%] Webpage extracted successfully...')
-
-# Define the url to be searched from
-url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
 
 # Gather and save CEF daily pricing data
 CEF_Webscrape(url)
@@ -53,9 +56,6 @@ def CEF_Dataset(file_path):
 
     # Print helpful note
     print('[50%] Dataset extracted successfully...')
-
-# Reference the locaiton of the 'DailyPricing.txt' file
-file_path = r'Raw JSON\DailyPricing.txt'
 
 # Extract the dataset
 CEF_Dataset(file_path)
