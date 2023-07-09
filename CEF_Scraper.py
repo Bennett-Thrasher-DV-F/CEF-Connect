@@ -84,7 +84,7 @@ def CEF_Cleaning():
 
     # Reorder the columns, print the first five rows of data for visual assurance
     CEFData = CEFData[['Date', 'Ticker', 'Fund Name', 'Category', 'Share Price', 'NAV', 'Premium / Discount']]
-    print(CEFData.head())
+    # print(CEFData.head())
     
     # Export to individual CSV file
     CEFData.to_csv(r'Daily Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
