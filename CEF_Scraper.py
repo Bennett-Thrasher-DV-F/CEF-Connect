@@ -29,7 +29,7 @@ def CEF_Webscrape(url):
     # Print helpful note
     print('[25%] Webpage extracted successfully...')
 
-# Gather and save CEF Daily Pricing data
+# Gather and save CEF Daily Pricing dataset
 CEF_Webscrape(url)
 
 def CEF_Dataset(file_path):
@@ -57,7 +57,7 @@ def CEF_Dataset(file_path):
     # Print helpful note
     print('[50%] Dataset extracted successfully...')
 
-# Extract the dataset
+# Extract the CEF Daily Pricing dataset
 CEF_Dataset(file_path)
 
 def CEF_Cleaning():
@@ -93,7 +93,7 @@ def CEF_Cleaning():
     print('[75%] Dataset saved successfully...')
     return CEFData
 
-# Clean and organize the dataset
+# Clean and organize the CEF Daily Pricing dataset
 CEF_Cleaning()
 
 def CEF_Consolidating():
@@ -111,5 +111,5 @@ def CEF_Consolidating():
             CEFData.to_csv(r'Daily_Pricing\DailyPricing.csv', mode='a', index=True, header=False)
             print('[100%] Dataset consolidated to DailyPricing.csv')
 
-# Append to Consolidated CEF CSV file
+# Append the CEF Daily Pricing dataset to the Consolidated CEF CSV file
 CEF_Consolidating()
