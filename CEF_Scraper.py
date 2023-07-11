@@ -99,7 +99,7 @@ CEF_Cleaning()
 def CEF_Consolidating():
 
     # Append newly-compiled data to exising DailyPricing.csv consolidated worksheet
-    with open(r'Daily_Pricing\DailyPricing.csv', 'r') as DailyPricing:
+    with open(r'DailyPricing.csv', 'r') as DailyPricing:
         
         # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet, and print helpful note
         if pd.read_csv(DailyPricing)['Date'].iloc[-1] == CEFData['Date'].iloc[0]:
@@ -108,7 +108,7 @@ def CEF_Consolidating():
         
         # If newly-compiled data does not exist (based on the last updated date), append to DailyPricing.csv consolidated worksheet, and print helpful note
         else:
-            CEFData.to_csv(r'Daily_Pricing\DailyPricing.csv', mode='a', index=True, header=False)
+            CEFData.to_csv(r'DailyPricing.csv', mode='a', index=True, header=False)
             print('[100%] Dataset consolidated to DailyPricing.csv')
 
 # Append the CEF Daily Pricing dataset to the Consolidated CEF CSV file
