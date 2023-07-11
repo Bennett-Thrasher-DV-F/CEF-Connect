@@ -9,30 +9,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: checkout repo content
+      - name: Checkout Repository Content
         uses: actions/checkout@v3 # checkout the repository content to github runner
 
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9' # install the python version needed
           
-      - name: install python packages
+      - name: Install Python Packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Dig Into Repository Folders
+        run: ls -la
+        working-directory: ${{ github.workspace }}/Daily_Pricing
           
-      - name: execute py script # run CEF_Scraper.py
+      - name: Execute Python Script # run CEF_Scraper.py
         run: python CEF_Scraper.py
           
-      - name: commit files
+      - name: Commit Files to Repository
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "update" --allow-empty)
           
-      - name: push changes
+      - name: Push Changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
