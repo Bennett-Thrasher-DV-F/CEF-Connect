@@ -35,7 +35,7 @@ jobs:
           git diff-index --quiet HEAD || (git commit -a -m "update" --allow-empty)
           
       - name: Push Changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
