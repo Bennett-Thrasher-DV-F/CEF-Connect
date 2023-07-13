@@ -9,7 +9,7 @@ import pandas as pd
 url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
 
 # Reference the locaiton of the 'DailyPricing.txt' file
-file_path = r'Raw_JSON\DailyPricing.txt'
+file_path = r'Raw_JSON/DailyPricing.txt'
 
 def CEF_Webscrape(url):
 
@@ -21,7 +21,7 @@ def CEF_Webscrape(url):
 
     # Get the page's raw source content, write to to the 'DailyPricing.txt' file, and close the webdriver
     pagesource = driver.page_source
-    f1 = open(r'Raw_JSON\DailyPricing.txt', 'w')
+    f1 = open(r'Raw_JSON/DailyPricing.txt', 'w')
     f1.write(pagesource)
     f1.close()
     driver.quit()
@@ -67,7 +67,7 @@ def CEF_Cleaning():
     CEFData = pd.DataFrame()
 
     # Read the previously saved .json file into a pandas DataFrame
-    CEFData = pd.read_json(r'Raw_JSON\DailyPricing_dataset.json', encoding='latin1')
+    CEFData = pd.read_json(r'Raw_JSON/DailyPricing_dataset.json', encoding='latin1')
 
     # Clean up the 'Date' Column
     CEFData['LastUpdated'] = CEFData['LastUpdated'].str.split('T').str[0]
@@ -87,7 +87,7 @@ def CEF_Cleaning():
     # print(CEFData.head())
     
     # Export to individual CSV file
-    CEFData.to_csv(r'Daily_Pricing\DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
+    CEFData.to_csv(r'Daily_Pricing/DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
     
     # Print a helpful note, return the CEFData DataFrame to be accessed later
     print('[75%] Dataset saved successfully...')
