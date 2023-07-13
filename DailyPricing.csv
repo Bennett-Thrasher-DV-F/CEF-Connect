@@ -3494,3 +3494,439 @@
 433,2023-07-11,RCG,RENN Fund ord,Hybrid-U.S. Allocation,1.84,2.16,-0.1481
 434,2023-07-11,RIV,RiverNorth Opportunities Fund,Hybrid-U.S. Allocation,11.5,12.23,-0.059699999999999996
 435,2023-07-11,CSQ,Calamos Strategic Total Return,Hybrid-U.S. Allocation,14.67,14.69,-0.0014000000000000002
+0,2023-07-12,JEQ,abrdn Japan Equity Fund,Equity-Asia Equity,5.9,6.83,-0.1362
+1,2023-07-12,IFN,The India Fund Inc,Equity-Asia Equity,16.62,16.78,-0.009500000000000001
+2,2023-07-12,JOF,Japan Smaller Cap Fund,Equity-Asia Equity,7.28,8.8,-0.1727
+3,2023-07-12,IIF,Morgan Stanley India Investment,Equity-Asia Equity,21.89,26.83,-0.1841
+4,2023-07-12,CAF,Morgan Stanley China A Share,Equity-Asia Equity,12.78,15.82,-0.19219999999999998
+5,2023-07-12,TDF,Templeton Dragon,Equity-Asia Equity,9.36,11.0,-0.1491
+6,2023-07-12,IAE,Voya Asia Pacific High Div Eq Inc Fd,Equity-Asia Equity,6.16,7.14,-0.1373
+7,2023-07-12,TWN,Taiwan Fund,Equity-Asia Equity,32.46,38.96,-0.1802
+8,2023-07-12,KF,Korea Fund,Equity-Asia Equity,23.45,26.82,-0.1503
+9,2023-07-12,CHN,China Fund,Equity-Asia Equity,11.32,13.06,-0.1547
+10,2023-07-12,PHYS,Sprott Physical Gold Trust Unit,Equity-Commodities,15.23,15.28,-0.0164
+11,2023-07-12,PSLV,Sprott Physical Silver Trust Unit,Equity-Commodities,8.22,8.14,-0.028300000000000002
+12,2023-07-12,SPPP,Sprott Physical Platinum &amp; Palladium Tr,Equity-Commodities,11.12,11.08,-0.016200000000000003
+13,2023-07-12,CEF,Sprott Physical Gold and Silver Trust,Equity-Commodities,18.45,19.04,-0.053
+14,2023-07-12,IGA,Voya Global Advantage and Premium Opp Fd,Equity-Covered-Call Funds,8.43,9.7,-0.1309
+15,2023-07-12,IGD,Voya Global Equity Dividend&amp;Prm Opp Fd,Equity-Covered-Call Funds,5.16,5.81,-0.1119
+16,2023-07-12,NFJ,AllianzGI Div Interest &amp; Prem Common,Equity-Covered-Call Funds,12.47,14.47,-0.1382
+17,2023-07-12,STK,Columbia Seligman Premium Technology Gr,Equity-Covered-Call Funds,30.24,27.95,0.0819
+18,2023-07-12,BOE,BlackRock Enhanced Glbl Div Trust,Equity-Covered-Call Funds,10.08,11.53,-0.1258
+19,2023-07-12,BDJ,BlackRock Enhanced Dividend Achievers,Equity-Covered-Call Funds,8.37,8.87,-0.0564
+20,2023-07-12,BGY,BlackRock Enhanced Intl Div Trust,Equity-Covered-Call Funds,5.46,6.16,-0.11359999999999999
+21,2023-07-12,CII,BlackRock Enhanced Capital and Income,Equity-Covered-Call Funds,18.94,19.27,-0.0171
+22,2023-07-12,MCN,Madison Covered Call &amp; Eq Strat,Equity-Covered-Call Funds,7.71,7.3,0.0562
+23,2023-07-12,GNT,"GAMCO Natural Resources, Gold &amp; Inc Tr",Equity-Covered-Call Funds,5.1,6.2,-0.17739999999999997
+24,2023-07-12,FFA,First Trust Enhanced Equity Income,Equity-Covered-Call Funds,17.76,18.08,-0.029900000000000003
+25,2023-07-12,QQQX,Nuveen NASDAQ 100 Dynamic Overwrite,Equity-Covered-Call Funds,24.88,24.14,0.0207
+26,2023-07-12,BXMX,Nuveen S&amp;P 500 Buy-Write Income,Equity-Covered-Call Funds,13.59,13.75,-0.014499999999999999
+27,2023-07-12,SPXX,Nuveen S&amp;P 500 Dynamic Overwrite,Equity-Covered-Call Funds,15.74,16.21,-0.0344
+28,2023-07-12,EOI,Eaton Vance Enhanced Equity Income,Equity-Covered-Call Funds,16.68,16.48,0.0042
+29,2023-07-12,EOS,Eaton Vance Enhanced Equity Income II,Equity-Covered-Call Funds,18.23,18.49,-0.0246
+30,2023-07-12,ETY,Eaton Vance Tax-Managed Divrs Equity Inc,Equity-Covered-Call Funds,12.42,12.36,-0.0024
+31,2023-07-12,ETB,Eaton Vance Tax-Managed Buy-Write Income,Equity-Covered-Call Funds,13.97,14.22,-0.0217
+32,2023-07-12,ETV,Eaton Vance Tax-Managed Buy-Write Opp,Equity-Covered-Call Funds,13.19,13.2,-0.0068000000000000005
+33,2023-07-12,ETW,Eaton Vance Tx-Mgd Glbl Buy-Write Opp,Equity-Covered-Call Funds,8.31,9.01,-0.0868
+34,2023-07-12,EXG,Eaton Vance Tax-Mgd Glb Divrs Equity Inc,Equity-Covered-Call Funds,7.95,8.63,-0.0904
+35,2023-07-12,ETJ,Eaton Vance Risk-Mgd Divers Eq Inc,Equity-Covered-Call Funds,8.38,8.52,-0.0222
+36,2023-07-12,DIAX,Nuveen Dow 30 Dynamic Overwrite,Equity-Covered-Call Funds,14.17,15.76,-0.10220000000000001
+37,2023-07-12,IHD,Voya Emerging Markets High Div Eq Fd,Equity-Emerging Market Equity,5.25,6.09,-0.1379
+38,2023-07-12,EMF,Templeton Emerging Markets,Equity-Emerging Market Equity,12.21,14.16,-0.1377
+39,2023-07-12,CEE,The Central and Eastern Europe Fund,Equity-Emerging Market Equity,9.355,8.76,0.0679
+40,2023-07-12,AEF,abrdn Emerging Markets Equity Inc,Equity-Emerging Market Equity,5.27,6.13,-0.14029999999999998
+41,2023-07-12,MXE,Mexico Equity &amp; Income,Equity-Emerging Market Equity,10.3,14.51,-0.2901
+42,2023-07-12,MXF,Mexico Fund,Equity-Emerging Market Equity,17.21,22.11,-0.2293
+43,2023-07-12,LGI,Lazard Global Total Return and Income,Equity-Global Equity,15.45,17.55,-0.1197
+44,2023-07-12,EEA,European Equity Fund,Equity-Global Equity,8.59,10.19,-0.157
+45,2023-07-12,FDEU,First Trust Dynamic Europe Equity Income,Equity-Global Equity,13.22,13.85,-0.0455
+46,2023-07-12,GGZ,Gabelli Global Small &amp; Mid Cap Value Tru,Equity-Global Equity,12.3308,14.38,-0.1425
+47,2023-07-12,HEQ,John Hancock Hedged Equity &amp; Income Fund,Equity-Global Equity,10.5,11.53,-0.08929999999999999
+48,2023-07-12,HTY,JH Tax Advantaged Global Shareholder Yld,Equity-Global Equity,4.732,5.4,-0.12369999999999999
+49,2023-07-12,AOD,abrdn Total Dynamic Dividend,Equity-Global Equity,8.27,9.56,-0.1349
+50,2023-07-12,AGD,abrdn Global Dynamic Dividend,Equity-Global Equity,9.63,11.02,-0.1261
+51,2023-07-12,GLQ,Clough Global Equity,Equity-Global Equity,6.305,7.42,-0.1503
+52,2023-07-12,EOD,Allspring Global Dividend Opp Fd,Equity-Global Equity,4.38,4.85,-0.0969
+53,2023-07-12,IDE,Voya Infrastructure Industrials&amp;Matls Fd,Equity-Global Equity,9.76,11.64,-0.16149999999999998
+54,2023-07-12,RGT,Royce Global ValueTrust Fund,Equity-Global Equity,9.41,11.14,-0.1553
+55,2023-07-12,CPZ,Calamos L/S Equity &amp; Dynamic Inc Trust,Equity-Global Equity,15.72,18.18,-0.1408
+56,2023-07-12,ETG,Eaton Vance Tax Adv Global Dividend Inc,Equity-Global Equity,16.96,18.34,-0.0892
+57,2023-07-12,SRV,NXG Cushing Midstream Energy Fund,Equity-MLP,39.87,38.24,0.0426
+58,2023-07-12,CEN,Center Coast Brookfield MLP &amp; NRG Inf Fd,Equity-MLP,19.99,20.97,-0.0467
+59,2023-07-12,KYN,Kayne Anderson Energy Infrastructure,Equity-MLP,8.56,10.03,-0.1466
+60,2023-07-12,KMF,Kayne Anderson NextGen Energy&amp;Infras,Equity-MLP,7.36,8.75,-0.1589
+61,2023-07-12,NML,NB Energy Infra and Income Fund Inc,Equity-MLP,6.87,8.03,-0.1445
+62,2023-07-12,FEN,First Trust Energy Income And Growth,Equity-MLP,13.72,15.5,-0.1148
+63,2023-07-12,FEI,First Trust MLP and Energy Income Fund,Equity-MLP,7.88,9.18,-0.1503
+64,2023-07-12,FPL,First Trust New Opps MLP &amp; Energy Fund,Equity-MLP,6.16,7.18,-0.15039999999999998
+65,2023-07-12,FIF,First Trust Energy Infrastructure,Equity-MLP,14.91,17.16,-0.14980000000000002
+66,2023-07-12,CEM,ClearBridge MLP and Midstream,Equity-MLP,35.68,41.43,-0.1501
+67,2023-07-12,EMO,ClearBridge Energy Midstream Opportunity,Equity-MLP,30.77,35.23,-0.138
+68,2023-07-12,CTR,ClearBridge MLP and Midstream TR,Equity-MLP,32.17,37.47,-0.1495
+69,2023-07-12,NTG,Tortoise Midstream Energy Fund,Equity-MLP,35.53,41.53,-0.1539
+70,2023-07-12,TTP,Tortoise Pipeline &amp; Energy,Equity-MLP,28.04,33.13,-0.16219999999999998
+71,2023-07-12,TYG,Tortoise Energy Infrastructure Corp.,Equity-MLP,30.55,36.45,-0.17309999999999998
+72,2023-07-12,PGZ,Principal Real Estate Income Fund,Equity-Real Estate,9.715,11.13,-0.12710000000000002
+73,2023-07-12,IGR,CBRE Global Real Estate Income,Equity-Real Estate,5.45,6.14,-0.1124
+74,2023-07-12,RQI,Cohen &amp; Steers Qual Inc Realty,Equity-Real Estate,11.93,12.79,-0.0672
+75,2023-07-12,RFI,Cohen &amp; Steers Total Return,Equity-Real Estate,11.73,11.82,-0.0076
+76,2023-07-12,RNP,Cohen &amp; Steers REIT &amp; Preferred Inc Fd,Equity-Real Estate,19.52,20.14,-0.0308
+77,2023-07-12,RLTY,Cohen &amp; Steers Real Estate Opp &amp; Inc Fd,Equity-Real Estate,14.55,16.2,-0.10189999999999999
+78,2023-07-12,AWP,abrdn Global Premier Properties,Equity-Real Estate,4.08,4.3,-0.0512
+79,2023-07-12,NRO,Neuberger Real Estate Securities Income,Equity-Real Estate,3.16,3.52,-0.1023
+80,2023-07-12,JRS,Nuveen Real Estate Income,Equity-Real Estate,7.63,8.61,-0.11380000000000001
+81,2023-07-12,MEGI,MainStay CBRE Glb Infra Megatr Term,Equity-Sector Equity,13.9,16.53,-0.1591
+82,2023-07-12,GGT,Gabelli Multimedia,Equity-Sector Equity,6.65,4.15,0.6024
+83,2023-07-12,GUT,Gabelli Utility Trust,Equity-Sector Equity,7.0,3.32,1.1084
+84,2023-07-12,GGN,GAMCO Global Gold Natural Resources&amp;Inc,Equity-Sector Equity,3.81,4.02,-0.052199999999999996
+85,2023-07-12,GLU,Gabelli Global Utility &amp; Income,Equity-Sector Equity,14.18,15.86,-0.1059
+86,2023-07-12,GRX,Gabelli Healthcare &amp; Wellness Trust,Equity-Sector Equity,9.7952,11.89,-0.17620000000000002
+87,2023-07-12,BTO,JHancock Financial Opportunities,Equity-Sector Equity,27.72,25.4,0.0913
+88,2023-07-12,PEO,Adams Natural Resources Fund,Equity-Sector Equity,21.4,25.48,-0.16010000000000002
+89,2023-07-12,BUI,"BlackRock Util, Infra &amp; Power Opp",Equity-Sector Equity,22.88,22.91,-0.0013
+90,2023-07-12,BCX,BlackRock Resources&amp;Commodities Strategy,Equity-Sector Equity,9.15,10.73,-0.14730000000000001
+91,2023-07-12,BST,BlackRock Science and Technology Trust,Equity-Sector Equity,34.25,34.44,-0.0055000000000000005
+92,2023-07-12,BMEZ,BlackRock Health Sciences Term Trust,Equity-Sector Equity,16.36,19.02,-0.1399
+93,2023-07-12,BSTZ,BlackRock Science and Technology Term,Equity-Sector Equity,18.55,21.71,-0.1456
+94,2023-07-12,BGR,BlackRock Energy and Resources,Equity-Sector Equity,12.18,14.0,-0.13
+95,2023-07-12,BME,BlackRock Health Sciences,Equity-Sector Equity,39.95,42.1,-0.051100000000000007
+96,2023-07-12,UTF,Cohen &amp; Steers Infrastructure,Equity-Sector Equity,23.59,23.41,0.0077
+97,2023-07-12,NXG,NXG NextGen Infrastructure Inc,Equity-Sector Equity,39.4,49.89,-0.21030000000000001
+98,2023-07-12,DPG,Duff &amp; Phelps Utility and Infra Fund Inc,Equity-Sector Equity,10.0,11.36,-0.1197
+99,2023-07-12,UTG,Reaves Utility Income,Equity-Sector Equity,27.83,27.97,-0.005
+100,2023-07-12,THQ,TEKLA HEALTHCARE OPPORTUNITIES FUND,Equity-Sector Equity,18.66,20.95,-0.1093
+101,2023-07-12,HQH,Tekla Healthcare Investors,Equity-Sector Equity,17.28,19.83,-0.1286
+102,2023-07-12,HQL,Tekla Life Sciences Investors,Equity-Sector Equity,13.39,15.77,-0.1509
+103,2023-07-12,THW,Tekla World Healthcare Fund,Equity-Sector Equity,13.71,12.36,0.1092
+104,2023-07-12,AIO,Virtus AI &amp; Tech Opp Fund,Equity-Sector Equity,18.65,19.89,-0.0623
+105,2023-07-12,NDP,"Tortoise Energy Independence Fund, Inc",Equity-Sector Equity,29.45,34.71,-0.1613
+106,2023-07-12,ASA,ASA Gold and Precious Metals Limited,Equity-Sector Equity,15.64,17.92,-0.154
+107,2023-07-12,DNP,DNP Select Income,Equity-Sector Equity,10.29,8.406,0.2289
+108,2023-07-12,TEAF,Ecofin Sustainable and Social Impact,Equity-Sector Equity,12.56,15.64,-0.2091
+109,2023-07-12,FGB,First Trust Spec Finance &amp; Fincl Opp,Equity-Sector Equity,3.29,3.81,-0.1417
+110,2023-07-12,MFD,MQ/FT Global Infrast Util Div&amp;Inc,Equity-Sector Equity,7.7998,8.96,-0.1306
+111,2023-07-12,BANX,ArrowMark Financial Corp,Equity-Sector Equity,16.7,21.42,-0.2268
+112,2023-07-12,SWZ,Swiss Helvetia,Equity-Single-Country Equity,8.27,9.85,-0.1604
+113,2023-07-12,GF,New Germany,Equity-Single-Country Equity,9.17,10.9,-0.15869999999999998
+114,2023-07-12,IAF,abrdn Australia Equity Fund Inc,Equity-Single-Country Equity,4.34,4.85,-0.1052
+115,2023-07-12,ADX,Adams Diversified Equity Fund,Equity-U.S. Equity,16.94,20.07,-0.156
+116,2023-07-12,BIGZ,BlackRock Innovat and Growth Term Trust,Equity-U.S. Equity,8.02,9.54,-0.1593
+117,2023-07-12,STEW,SRH Total Return Fund,Equity-U.S. Equity,13.38,16.56,-0.192
+118,2023-07-12,ASG,Liberty All-Star Growth,Equity-U.S. Equity,5.54,5.74,-0.0348
+119,2023-07-12,USA,Liberty All-Star Equity,Equity-U.S. Equity,6.64,6.51,0.02
+120,2023-07-12,HIE,Miller/Howard High Income Equity Fund,Equity-U.S. Equity,10.14,10.96,-0.0748
+121,2023-07-12,NBXG,Neuberger Brmn Nxt Gnrtn Cnnctvty,Equity-U.S. Equity,11.13,13.39,-0.16879999999999998
+122,2023-07-12,GAB,Gabelli Equity,Equity-U.S. Equity,5.8100000000000005,5.37,0.0819
+123,2023-07-12,GDV,Gabelli Dividend &amp; Income,Equity-U.S. Equity,21.5,25.36,-0.1522
+124,2023-07-12,GAM,General American Investors,Equity-U.S. Equity,41.84,50.65,-0.1739
+125,2023-07-12,FXBY,FOXBY CORP,Equity-U.S. Equity,13.0,21.23,-0.38770000000000004
+126,2023-07-12,FUND,Sprott Focus Trust,Equity-U.S. Equity,8.145,8.72,-0.0659
+127,2023-07-12,RVT,Royce Value Trust,Equity-U.S. Equity,14.09,15.98,-0.1183
+128,2023-07-12,RMT,Royce Micro-Cap Trust,Equity-U.S. Equity,8.94,10.12,-0.1166
+129,2023-07-12,JCE,Nuveen Core Equity Alpha,Equity-U.S. Equity,13.01,13.23,-0.0196
+130,2023-07-12,CUBA,Herzfeld Caribbean Basin,Equity-U.S. Equity,3.95,4.98,-0.2108
+131,2023-07-12,CLM,Cornerstone Strategic Value,Equity-U.S. Equity,8.46,6.97,0.22089999999999999
+132,2023-07-12,CRF,Cornerstone Total Return Fund,Equity-U.S. Equity,8.17,6.6899999999999995,0.2227
+133,2023-07-12,CET,Central Securities Corporation,Equity-U.S. Equity,36.47,43.74,-0.1671
+134,2023-07-12,GRF,Eagle Capital Growth,Equity-U.S. Equity,8.66,10.46,-0.1778
+135,2023-07-12,SPE,Special Opportunities,Equity-U.S. Equity,11.32,13.47,-0.1678
+136,2023-07-12,NCZ,Virtus Convertible &amp; Income Fund II,Fixed Income - Taxable-Convertibles,3.05,3.48,-0.12359999999999999
+137,2023-07-12,NCV,Virtus Convertible &amp; Income Fund,Fixed Income - Taxable-Convertibles,3.42,3.9,-0.1231
+138,2023-07-12,AVK,Advent Convertible &amp; Income Fund,Fixed Income - Taxable-Convertibles,11.81,12.75,-0.0737
+139,2023-07-12,BCV,Bancroft Fund,Fixed Income - Taxable-Convertibles,17.53,20.22,-0.133
+140,2023-07-12,ECF,Ellsworth Growth and Income Fund,Fixed Income - Taxable-Convertibles,8.65,9.9,-0.1263
+141,2023-07-12,PCF,High Income Securities,Fixed Income - Taxable-Convertibles,6.6,7.44,-0.1317
+142,2023-07-12,CHI,Calamos Convertible Opp Inc,Fixed Income - Taxable-Convertibles,11.15,10.3,0.065
+143,2023-07-12,CHY,Calamos Convertible &amp; High Income Fund,Fixed Income - Taxable-Convertibles,11.3,10.87,0.0304
+144,2023-07-12,CCD,Calamos Dynamic Convertible and Income,Fixed Income - Taxable-Convertibles,21.34,20.23,0.0593
+145,2023-07-12,EDD,Morgan Stanley Emrgng Mkts Domestic Debt,Fixed Income - Taxable-Emerging Market Income,4.83,5.57,-0.1329
+146,2023-07-12,MSD,Morgan Stanley Emerging Markets Debt,Fixed Income - Taxable-Emerging Market Income,6.5,7.54,-0.1379
+147,2023-07-12,TEI,Templeton Emerg Mkts Income,Fixed Income - Taxable-Emerging Market Income,5.24,5.84,-0.1027
+148,2023-07-12,EDF,Virtus Stone Harbor Emerging Markets Inc,Fixed Income - Taxable-Emerging Market Income,4.46,4.3,0.0372
+149,2023-07-12,EDI,Virtus Stone Harbor Emg Mkts Total Inc,Fixed Income - Taxable-Emerging Market Income,5.23,5.17,0.0116
+150,2023-07-12,EMD,Western Asset Emerging Markets Debt,Fixed Income - Taxable-Emerging Market Income,8.88,10.06,-0.13019999999999998
+151,2023-07-12,GIM,Templeton Global Income,Fixed Income - Taxable-Global Income,4.25,4.66,-0.08800000000000001
+152,2023-07-12,PPT,Putnam Premier Income,Fixed Income - Taxable-Global Income,3.59,3.84,-0.06509999999999999
+153,2023-07-12,MMT,MFS Multimarket Income,Fixed Income - Taxable-Global Income,4.51,4.97,-0.0926
+154,2023-07-12,MIN,MFSÂ® Intermediate Income,Fixed Income - Taxable-Global Income,2.72,2.94,-0.0748
+155,2023-07-12,FAM,First Trust/abrdn Global Opp Inc,Fixed Income - Taxable-Global Income,6.14,6.82,-0.09970000000000001
+156,2023-07-12,DSL,DoubleLine Income Solutions Fund,Fixed Income - Taxable-Global Income,12.04,11.71,0.028200000000000003
+157,2023-07-12,FAX,abrdn Asia-Pacific Income Fund Inc,Fixed Income - Taxable-Global Income,2.75,3.13,-0.12140000000000001
+158,2023-07-12,FCO,"abrdn Global Income Fund, Inc.",Fixed Income - Taxable-Global Income,5.97,4.14,0.442
+159,2023-07-12,ASGI,abrdn Global Infrastructure Income Fund,Fixed Income - Taxable-Global Income,17.68,21.25,-0.168
+160,2023-07-12,BWG,BrandywineGLOBAL â Global Inc Opp Fund,Fixed Income - Taxable-Global Income,8.37,9.43,-0.1283
+161,2023-07-12,JGH,Nuveen Global High Income Fund,Fixed Income - Taxable-Global Income,11.46,12.69,-0.09849999999999999
+162,2023-07-12,PDO,PIMCO Dynamic Income Opportunities Fund,Fixed Income - Taxable-Global Income,13.1,12.74,0.0369
+163,2023-07-12,GDO,Western Asset Global Corp Defined Opp,Fixed Income - Taxable-Global Income,12.46,12.94,-0.038599999999999995
+164,2023-07-12,EAD,Allspring Inc Opp,Fixed Income - Taxable-High Yield,6.53,7.1,-0.0803
+165,2023-07-12,HNW,Pioneer Diversified High Income,Fixed Income - Taxable-High Yield,10.26,11.86,-0.1349
+166,2023-07-12,PHT,Pioneer High Income,Fixed Income - Taxable-High Yield,6.83,7.71,-0.11410000000000001
+167,2023-07-12,RA,Brookfield Real Assets Income Fund Inc.,Fixed Income - Taxable-High Yield,16.85,14.74,0.1431
+168,2023-07-12,DHF,BNY Mellon High Yield Strategies Fund,Fixed Income - Taxable-High Yield,2.22,2.55,-0.1294
+169,2023-07-12,AWF,AllianceBernstein Global High Income,Fixed Income - Taxable-High Yield,9.94,10.63,-0.0649
+170,2023-07-12,BGH,Barings Global Short Duration High Yield,Fixed Income - Taxable-High Yield,13.47,14.79,-0.0892
+171,2023-07-12,HYT,BlackRock Corporate High Yield Fund,Fixed Income - Taxable-High Yield,8.97,9.37,-0.042699999999999995
+172,2023-07-12,FSD,First Trust High Inc Long/Short,Fixed Income - Taxable-High Yield,11.44,12.54,-0.0877
+173,2023-07-12,FTHY,FIRST TRUST HY OPPORTUNITIES 2027 Term,Fixed Income - Taxable-High Yield,13.67,15.49,-0.1175
+174,2023-07-12,IHIT,Invesco High Income 2023 Target Term,Fixed Income - Taxable-High Yield,7.57,7.97,-0.050199999999999995
+175,2023-07-12,IHTA,Invesco High Income 2024 Target Term,Fixed Income - Taxable-High Yield,7.13,7.85,-0.0917
+176,2023-07-12,VLT,Invesco High Income II,Fixed Income - Taxable-High Yield,10.54,11.53,-0.0859
+177,2023-07-12,MCR,MFSÂ® Charter Income,Fixed Income - Taxable-High Yield,6.21,6.81,-0.08810000000000001
+178,2023-07-12,CIF,MFSÂ® Intermediate High Income,Fixed Income - Taxable-High Yield,1.67,1.8399999999999999,-0.0924
+179,2023-07-12,NHS,Neuberger Berman High Yield Strategies,Fixed Income - Taxable-High Yield,7.64,8.15,-0.0626
+180,2023-07-12,JLS,Nuveen Mortgage and Income Fund,Fixed Income - Taxable-High Yield,16.31,19.11,-0.1465
+181,2023-07-12,KIO,KKR Income Opportunities Fund,Fixed Income - Taxable-High Yield,11.870000000000001,12.98,-0.094
+182,2023-07-12,AIF,Apollo Tactical Income Fund Inc.,Fixed Income - Taxable-High Yield,12.8,14.519,-0.12050000000000001
+183,2023-07-12,CIK,Credit Suisse Asset Mgmt Income,Fixed Income - Taxable-High Yield,2.96,2.84,0.042300000000000004
+184,2023-07-12,DHY,Credit Suisse High Yield Bond Fund,Fixed Income - Taxable-High Yield,1.92,2.09,-0.0909
+185,2023-07-12,RSF,RiverNorth Capital and Inc Fund,Fixed Income - Taxable-High Yield,15.51,16.72,-0.0754
+186,2023-07-12,OPP,RiverNorth/DoubleLine Strategic Opp Fund,Fixed Income - Taxable-High Yield,8.54,9.57,-0.12119999999999999
+187,2023-07-12,ISD,"PGIM High Yield Bond Fund, Inc.",Fixed Income - Taxable-High Yield,12.55,13.6,-0.0868
+188,2023-07-12,GHY,"PGIM Global High Yield Fund, Inc.",Fixed Income - Taxable-High Yield,11.4,12.45,-0.094
+189,2023-07-12,SDHY,PGIM Short Duration High Yield Opps,Fixed Income - Taxable-High Yield,15.15,17.09,-0.1229
+190,2023-07-12,JHAA,Nuveen Corporate Income 2023 Target Term,Fixed Income - Taxable-High Yield,9.37,9.59,-0.0229
+191,2023-07-12,HYI,Western Asset High Yield Defined Opps,Fixed Income - Taxable-High Yield,11.81,12.42,-0.051500000000000004
+192,2023-07-12,DMO,Western Asset Mortgage Opp Fund Inc.,Fixed Income - Taxable-High Yield,10.74,11.99,-0.1134
+193,2023-07-12,EHI,Western Asset Global High Income,Fixed Income - Taxable-High Yield,7.72,7.36,0.0326
+194,2023-07-12,HIX,Western Asset High Income II,Fixed Income - Taxable-High Yield,4.92,4.71,0.0446
+195,2023-07-12,HIO,Western Asset High Income Opportunity,Fixed Income - Taxable-High Yield,3.88,4.25,-0.0965
+196,2023-07-12,HYB,New America High-Income,Fixed Income - Taxable-High Yield,6.64,7.79,-0.154
+197,2023-07-12,EIC,Eagle Point Income Co Inc,Fixed Income - Taxable-High Yield,13.28,12.72,0.0726
+198,2023-07-12,MPV,Barings Participation Invs,Fixed Income - Taxable-High Yield,13.09,15.45,-0.1404
+199,2023-07-12,MCI,Barings Corporate Investors,Fixed Income - Taxable-High Yield,15.37,16.85,-0.0768
+200,2023-07-12,BKT,BlackRock Income,Fixed Income - Taxable-Investment Grade,12.2,12.62,-0.0333
+201,2023-07-12,EGF,BlackRock Enhanced Government,Fixed Income - Taxable-Investment Grade,9.61,10.35,-0.07150000000000001
+202,2023-07-12,BTZ,BlackRock Credit Allocation Income Trust,Fixed Income - Taxable-Investment Grade,10.22,11.15,-0.0834
+203,2023-07-12,BHK,BlackRock Core Bond,Fixed Income - Taxable-Investment Grade,10.77,10.91,-0.0128
+204,2023-07-12,MGF,MFSÂ® Government Markets Inc,Fixed Income - Taxable-Investment Grade,3.2316000000000003,3.43,-0.057800000000000004
+205,2023-07-12,VBF,Invesco Bond,Fixed Income - Taxable-Investment Grade,15.18,16.04,-0.0536
+206,2023-07-12,JHI,JHancock Investors,Fixed Income - Taxable-Investment Grade,12.68,14.03,-0.0962
+207,2023-07-12,JHS,JHancock Income Secs,Fixed Income - Taxable-Investment Grade,10.79,11.79,-0.0848
+208,2023-07-12,FMY,First Trust Mortgage Income,Fixed Income - Taxable-Investment Grade,11.23,12.29,-0.0862
+209,2023-07-12,PCN,PIMCO Corporate &amp; Income Strgy,Fixed Income - Taxable-Investment Grade,13.7,11.05,0.2398
+210,2023-07-12,PTY,PIMCO Corporate &amp; Income Opportunity Fd,Fixed Income - Taxable-Investment Grade,14.56,10.8,0.3481
+211,2023-07-12,PIM,Putnam Master Interm Income,Fixed Income - Taxable-Investment Grade,3.15,3.44,-0.0843
+212,2023-07-12,RCS,PIMCO Strategic Income Fund,Fixed Income - Taxable-Investment Grade,5.68,4.29,0.32170000000000004
+213,2023-07-12,NPCT,Nuveen Core Plus Impact Fund,Fixed Income - Taxable-Investment Grade,10.17,11.7,-0.147
+214,2023-07-12,JMM,Nuveen Multi-Market Income Fund,Fixed Income - Taxable-Investment Grade,5.890000000000001,6.34,-0.0852
+215,2023-07-12,WEA,Western Asset Premier Bond,Fixed Income - Taxable-Investment Grade,10.73,11.15,-0.0233
+216,2023-07-12,WIA,Western Asset Inflation-Linked Income Fd,Fixed Income - Taxable-Investment Grade,8.4,9.6,-0.1354
+217,2023-07-12,WIW,Western Asset Infl-Linked Opps &amp; Inc Fd,Fixed Income - Taxable-Investment Grade,8.92,10.29,-0.1458
+218,2023-07-12,PAI,Western Asset Income,Fixed Income - Taxable-Investment Grade,11.7636,12.56,-0.0718
+219,2023-07-12,IGI,Western Asset Invstm Grd Dfnd Opp Tr Inc,Fixed Income - Taxable-Investment Grade,16.47,17.07,-0.042800000000000005
+220,2023-07-12,INSI,Insight Select Income Fund,Fixed Income - Taxable-Investment Grade,15.61,17.2,-0.0866
+221,2023-07-12,BLW,BlackRock Limited Duration Income,Fixed Income - Taxable-Limited Duration,13.0,13.66,-0.0483
+222,2023-07-12,ERC,Allspring Multi-Sec Inc,Fixed Income - Taxable-Limited Duration,9.44,9.89,-0.0455
+223,2023-07-12,PCM,PCM Fund,Fixed Income - Taxable-Limited Duration,9.89,6.67,0.4828
+224,2023-07-12,EVV,Eaton Vance Limited Duration Income,Fixed Income - Taxable-Limited Duration,9.34,10.38,-0.1011
+225,2023-07-12,EVG,Eaton Vance Short Duration Divers Inc,Fixed Income - Taxable-Limited Duration,9.97,10.7,-0.0726
+226,2023-07-12,FTF,Franklin Limited Duration Income Trust,Fixed Income - Taxable-Limited Duration,6.26,7.09,-0.122
+227,2023-07-12,FSCO,FS Credit Opportunities Corp.,Fixed Income - Taxable-Multi-Sector,5.0,6.6899999999999995,-0.2526
+228,2023-07-12,GOF,Guggenheim Strategic Opp Fund,Fixed Income - Taxable-Multi-Sector,16.28,12.48,0.3045
+229,2023-07-12,DBL,Doubleline Opportunistic Cred,Fixed Income - Taxable-Multi-Sector,14.8,14.32,0.0335
+230,2023-07-12,DLY,DoubleLine Yield Opportunities Fund,Fixed Income - Taxable-Multi-Sector,14.58,15.1,-0.0344
+231,2023-07-12,BIT,BlackRock Multi-Sector Income Trust,Fixed Income - Taxable-Multi-Sector,14.47,14.41,0.0042
+232,2023-07-12,DCF,BNY Mellon Alcentra Gl Crd Inc 2024 Tgt,Fixed Income - Taxable-Multi-Sector,7.67,8.0,-0.041299999999999996
+233,2023-07-12,PHK,PIMCO High Income,Fixed Income - Taxable-Multi-Sector,5.0,4.47,0.1186
+234,2023-07-12,PFL,PIMCO Income Strategy,Fixed Income - Taxable-Multi-Sector,8.22,7.72,0.06480000000000001
+235,2023-07-12,PFN,PIMCO Income Strategy II,Fixed Income - Taxable-Multi-Sector,7.18,6.8,0.0559
+236,2023-07-12,CBH,Virtus Convertible &amp; Income 2024 Tgt,Fixed Income - Taxable-Multi-Sector,8.64,9.15,-0.0557
+237,2023-07-12,WDI,Western Asset Diversified Inc Fund,Fixed Income - Taxable-Multi-Sector,13.55,15.08,-0.1081
+238,2023-07-12,VGI,Virtus Global Multi-Sector Income Fund,Fixed Income - Taxable-Multi-Sector,7.54,8.64,-0.1215
+239,2023-07-12,PDI,PIMCO Dynamic Income Fund,Fixed Income - Taxable-Multi-Sector,18.93,17.41,0.09759999999999999
+240,2023-07-12,PAXS,PIMCO Access Income,Fixed Income - Taxable-Multi-Sector,14.72,14.89,0.0007000000000000001
+241,2023-07-12,TSI,TCW Strategic Income,Fixed Income - Taxable-Multi-Sector,4.65,5.0,-0.08
+242,2023-07-12,PTA,Cohen &amp; Steers Tax-adv Prd Sec and Inc,Fixed Income - Taxable-Preferreds,17.69,19.1,-0.0738
+243,2023-07-12,PSF,Cohen &amp; Steers Select Preferred &amp; Inc,Fixed Income - Taxable-Preferreds,17.88,19.16,-0.0668
+244,2023-07-12,LDP,Cohen &amp; Steers Ltd Duration Pref &amp; Inc,Fixed Income - Taxable-Preferreds,18.1,19.4,-0.067
+245,2023-07-12,PDT,JHancock Premium Dividend Fund,Fixed Income - Taxable-Preferreds,11.37,11.84,-0.0397
+246,2023-07-12,HPS,JHancock Preferred Income III,Fixed Income - Taxable-Preferreds,14.03,13.35,0.0509
+247,2023-07-12,FPF,First Trust Inter Dur Pref &amp; Income Fund,Fixed Income - Taxable-Preferreds,15.37,17.4,-0.1167
+248,2023-07-12,FFC,Flah&amp;Crum Preferred Securities,Fixed Income - Taxable-Preferreds,13.78,15.06,-0.085
+249,2023-07-12,FLC,Flah&amp;Crum Total Return Fund,Fixed Income - Taxable-Preferreds,14.46,16.19,-0.1069
+250,2023-07-12,PFD,Flaherty &amp; Crumrine Preferred Income,Fixed Income - Taxable-Preferreds,10.02,10.86,-0.07730000000000001
+251,2023-07-12,PFO,Flaherty &amp; Crumrine Preferred Income Opp,Fixed Income - Taxable-Preferreds,7.9,8.86,-0.1084
+252,2023-07-12,DFP,Flah &amp; Crum Dynamic Pref &amp; Income Fund,Fixed Income - Taxable-Preferreds,17.7,19.49,-0.09179999999999999
+253,2023-07-12,HPI,JHancock Preferred Income,Fixed Income - Taxable-Preferreds,15.22,15.04,0.0339
+254,2023-07-12,HPF,JHancock Preferred Income II,Fixed Income - Taxable-Preferreds,15.31,14.9,0.0349
+255,2023-07-12,JPC,Nuveen Pref &amp; Income Opps Fund,Fixed Income - Taxable-Preferreds,6.55,7.27,-0.1015
+256,2023-07-12,JPS,Nuveen Pref &amp; Income Securities,Fixed Income - Taxable-Preferreds,6.44,7.3,-0.12140000000000001
+257,2023-07-12,JPT,Nuveen Preferred and Income Fund,Fixed Income - Taxable-Preferreds,16.15,18.35,-0.1253
+258,2023-07-12,JPI,Nuveen Preferred &amp; Income Term Fund,Fixed Income - Taxable-Preferreds,17.02,17.99,-0.058100000000000006
+259,2023-07-12,NPFD,Nuveen Variable Rate Pref &amp; Inc Fund,Fixed Income - Taxable-Preferreds,15.78,18.33,-0.1386
+260,2023-07-12,PHD,Pioneer Floating Rate Fund,Fixed Income - Taxable-Senior Loans,8.86,10.12,-0.1245
+261,2023-07-12,HFRO,Highland Opportunities and Income Ord,Fixed Income - Taxable-Senior Loans,8.64,13.51,-0.3605
+262,2023-07-12,VVR,Invesco Senior Income,Fixed Income - Taxable-Senior Loans,3.85,4.1,-0.061
+263,2023-07-12,FCT,First Trust Senior FR Inc II,Fixed Income - Taxable-Senior Loans,9.82,11.1,-0.1153
+264,2023-07-12,BGT,Blackrock Floating Rate Income,Fixed Income - Taxable-Senior Loans,11.74,12.88,-0.0885
+265,2023-07-12,ACP,abrdn Income Credit Strategies Fund,Fixed Income - Taxable-Senior Loans,6.8100000000000005,6.92,-0.015899999999999997
+266,2023-07-12,DSU,BlackRock Debt Strategies,Fixed Income - Taxable-Senior Loans,10.03,10.83,-0.0739
+267,2023-07-12,FRA,BlackRock Floating Rate Inc Strategies,Fixed Income - Taxable-Senior Loans,12.34,13.27,-0.0701
+268,2023-07-12,BSL,Blackstone Senior Floating Rt 2027 term,Fixed Income - Taxable-Senior Loans,12.99,14.51,-0.1048
+269,2023-07-12,BGX,Blackstone Long-Short Credit Income,Fixed Income - Taxable-Senior Loans,11.48,12.99,-0.11699999999999999
+270,2023-07-12,BGB,Blackstone Strategic Credit 2027 term,Fixed Income - Taxable-Senior Loans,11.05,12.47,-0.1155
+271,2023-07-12,AFT,Apollo Senior Floating Rate Fund,Fixed Income - Taxable-Senior Loans,13.01,14.9444,-0.1308
+272,2023-07-12,ARDC,Ares Dynamic Credit Allocation Fund,Fixed Income - Taxable-Senior Loans,12.3,13.8,-0.113
+273,2023-07-12,EVF,Eaton Vance Senior Income,Fixed Income - Taxable-Senior Loans,5.44,6.17,-0.11259999999999999
+274,2023-07-12,EFR,Eaton Vance Senior Floating Rate,Fixed Income - Taxable-Senior Loans,11.88,12.91,-0.08259999999999999
+275,2023-07-12,EFT,Eaton Vance Floating-Rate Income,Fixed Income - Taxable-Senior Loans,11.92,13.12,-0.0942
+276,2023-07-12,JFR,Nuveen Floating Rate Income,Fixed Income - Taxable-Senior Loans,8.03,9.18,-0.1281
+277,2023-07-12,JQC,Nuveen Credit Strategies Income Fund,Fixed Income - Taxable-Senior Loans,5.08,5.86,-0.1361
+278,2023-07-12,NSL,Nuveen Senior Income,Fixed Income - Taxable-Senior Loans,4.66,5.33,-0.1306
+279,2023-07-12,BRW,Saba Capital Income &amp; Opportunities Fund,Fixed Income - Taxable-Senior Loans,7.67,8.36,-0.0897
+280,2023-07-12,JRO,Nuveen Floating Rate Income Opportunity,Fixed Income - Taxable-Senior Loans,7.94,9.06,-0.1275
+281,2023-07-12,JSD,Nuveen Short Duration Credit Opps Fund,Fixed Income - Taxable-Senior Loans,11.7,13.44,-0.13269999999999998
+282,2023-07-12,XFLT,XAI Octagon FR &amp; Alt Income Term Trust,Fixed Income - Taxable-Senior Loans,6.78,6.46,0.04019999999999999
+283,2023-07-12,VCIF,Vertical Capital Income Fund,Fixed Income - Taxable-Senior Loans,8.44,10.02,-0.151
+284,2023-07-12,OXLC,Oxford Lane Capital Corp,Fixed Income - Taxable-Senior Loans,5.06,4.4,0.1514
+285,2023-07-12,ECC,Eagle Point Credit Company LLC,Fixed Income - Taxable-Senior Loans,10.15,8.51,0.2357
+286,2023-07-12,OCCI,OFS Credit Company Inc,Fixed Income - Taxable-Senior Loans,8.31,8.48,0.0593
+287,2023-07-12,BBN,BlackRock Taxable Municipal Bond Trust,Fixed Income - Taxable-Taxable Muni,16.57,17.83,-0.0707
+288,2023-07-12,GBAB,Guggenheim Tax Muni &amp; Inv Grade Debt Tr,Fixed Income - Taxable-Taxable Muni,16.23,15.92,0.019500000000000003
+289,2023-07-12,NBB,Nuveen Taxable Municipal Income,Fixed Income - Taxable-Taxable Muni,15.62,16.71,-0.0741
+290,2023-07-12,NMZ,Nuveen Municipal High Income Opp Fd,Fixed Income - Municipal-Municipal,10.62,10.91,-0.026600000000000002
+291,2023-07-12,NIM,Nuveen Select Maturity Muni,Fixed Income - Municipal-Municipal,9.02,9.91,-0.0898
+292,2023-07-12,MMD,MainStay MacKay DefinedTerm Muni Opp,Fixed Income - Municipal-Municipal,16.96,17.05,-0.0053
+293,2023-07-12,MFM,MFS Municipal Income,Fixed Income - Municipal-Municipal,5.12,5.89,-0.1307
+294,2023-07-12,NBH,Neuberger Berman Municipal,Fixed Income - Municipal-Municipal,10.28,11.88,-0.13470000000000001
+295,2023-07-12,CXH,MFSÂ® Investment Grade Municipal,Fixed Income - Municipal-Municipal,7.48,8.47,-0.11689999999999999
+296,2023-07-12,CXE,MFSÂ® High Income Municipal,Fixed Income - Municipal-Municipal,3.5,4.07,-0.14
+297,2023-07-12,CMU,MFSÂ® High Yield Municipal,Fixed Income - Municipal-Municipal,3.27,3.7,-0.1162
+298,2023-07-12,FMN,Federated Premier Municipal Income,Fixed Income - Municipal-Municipal,10.64,12.33,-0.1371
+299,2023-07-12,VKQ,Invesco Municipal,Fixed Income - Municipal-Municipal,9.58,10.83,-0.11539999999999999
+300,2023-07-12,VGM,Invesco Tr Inv Gr Muni,Fixed Income - Municipal-Municipal,9.76,11.14,-0.12390000000000001
+301,2023-07-12,VMO,Invesco Muni Opp,Fixed Income - Municipal-Municipal,9.51,10.8,-0.11939999999999999
+302,2023-07-12,VKI,Invesco Adv Muni Inc II,Fixed Income - Municipal-Municipal,8.5,9.65,-0.1192
+303,2023-07-12,IIM,Invesco Value Muni Income,Fixed Income - Municipal-Municipal,11.98,13.32,-0.10060000000000001
+304,2023-07-12,OIA,Invesco Municipal Inc Opp I,Fixed Income - Municipal-Municipal,6.23,6.28,-0.008
+305,2023-07-12,IQI,Invesco Quality Municipal Income Trust,Fixed Income - Municipal-Municipal,9.68,10.88,-0.1103
+306,2023-07-12,BLE,BlackRock Municipal Income II,Fixed Income - Municipal-Municipal,10.42,12.03,-0.1338
+307,2023-07-12,BTA,BlackRock Long-Term Muni Advantage,Fixed Income - Municipal-Municipal,9.870000000000001,10.3,-0.0417
+308,2023-07-12,MHD,BlackRock Muniholdings,Fixed Income - Municipal-Municipal,11.71,13.54,-0.1352
+309,2023-07-12,MVF,BlackRock Munivest,Fixed Income - Municipal-Municipal,6.79,7.87,-0.13720000000000002
+310,2023-07-12,MVT,BlackRock Munivest II,Fixed Income - Municipal-Municipal,10.62,12.28,-0.1352
+311,2023-07-12,MYD,BlackRock Muniyield,Fixed Income - Municipal-Municipal,10.49,12.07,-0.1309
+312,2023-07-12,MUI,BlackRock Municipal Income Fund Inc,Fixed Income - Municipal-Municipal,11.43,13.16,-0.1315
+313,2023-07-12,MUE,BlackRock MuniHoldings Qty II,Fixed Income - Municipal-Municipal,9.83,11.38,-0.1362
+314,2023-07-12,MYI,BlackRock MuniYield Qty III,Fixed Income - Municipal-Municipal,10.94,12.43,-0.1199
+315,2023-07-12,MQY,BlackRock Muniyield Quality,Fixed Income - Municipal-Municipal,11.67,13.15,-0.1125
+316,2023-07-12,MQT,BlackRock Muniyield Quality II,Fixed Income - Municipal-Municipal,10.11,11.63,-0.1307
+317,2023-07-12,MUA,BlackRock Muniassets,Fixed Income - Municipal-Municipal,10.2,11.19,-0.0885
+318,2023-07-12,BTT,BlackRock Municipal 2030 Target Term,Fixed Income - Municipal-Municipal,21.02,23.44,-0.1032
+319,2023-07-12,LEO,BNY Mellon Strategic Municipals,Fixed Income - Municipal-Municipal,6.16,6.93,-0.11109999999999999
+320,2023-07-12,DMF,BNY Mellon Municipal Income,Fixed Income - Municipal-Municipal,6.32,7.56,-0.16399999999999998
+321,2023-07-12,BYM,BlackRock Muni Inc Qty Trust,Fixed Income - Municipal-Municipal,11.24,12.67,-0.11289999999999999
+322,2023-07-12,BKN,BlackRock Invest Qual Muni,Fixed Income - Municipal-Municipal,11.77,13.11,-0.10220000000000001
+323,2023-07-12,BFK,BlackRock Municipal Income,Fixed Income - Municipal-Municipal,10.01,11.6,-0.1371
+324,2023-07-12,AFB,AllianceBernstein National Mun Inc,Fixed Income - Municipal-Municipal,10.73,12.28,-0.12619999999999998
+325,2023-07-12,EVN,Eaton Vance Municipal Income,Fixed Income - Municipal-Municipal,10.07,11.22,-0.1025
+326,2023-07-12,DTF,DTF Tax-Free Income 2028 Term,Fixed Income - Municipal-Municipal,11.025,12.4,-0.1109
+327,2023-07-12,KTF,DWS Municipal Income,Fixed Income - Municipal-Municipal,8.68,10.11,-0.1414
+328,2023-07-12,KSM,DWS Strategic Muni Income,Fixed Income - Municipal-Municipal,8.51,9.8,-0.1316
+329,2023-07-12,VFL,Delaware Inv National Muni Income,Fixed Income - Municipal-Municipal,9.95,11.52,-0.1363
+330,2023-07-12,EIM,Eaton Vance Municipal Bond,Fixed Income - Municipal-Municipal,10.02,11.4,-0.1211
+331,2023-07-12,EOT,Eaton Vance National Municipal Opprs Tr,Fixed Income - Municipal-Municipal,17.3,18.23,-0.051
+332,2023-07-12,ETX,EV Municipal Income 2028 Term Trust,Fixed Income - Municipal-Municipal,17.79,18.89,-0.0582
+333,2023-07-12,BMN,BlackRock 2037 Municipal Target term,Fixed Income - Municipal-Municipal,24.8,25.67,-0.0339
+334,2023-07-12,DSM,BNY Mellon Strategic Muni Bond,Fixed Income - Municipal-Municipal,5.76,6.67,-0.1364
+335,2023-07-12,DMB,BNY Mellon Muni Bond Infrastructure Fund,Fixed Income - Municipal-Municipal,11.13,11.8,-0.056799999999999996
+336,2023-07-12,NUV,Nuveen Municipal Value,Fixed Income - Municipal-Municipal,8.73,9.28,-0.0593
+337,2023-07-12,PMX,PIMCO Municipal Income III,Fixed Income - Municipal-Municipal,8.06,8.12,-0.0074
+338,2023-07-12,PML,PIMCO Municipal Income II,Fixed Income - Municipal-Municipal,9.03,8.83,0.0227
+339,2023-07-12,PMF,PIMCO Municipal Income,Fixed Income - Municipal-Municipal,10.21,9.6,0.0635
+340,2023-07-12,RFM,RiverNorth Flexible Municipal Income,Fixed Income - Municipal-Municipal,16.34,17.04,-0.041100000000000005
+341,2023-07-12,RFMZ,RiverNorth Flexible Municipal Income II,Fixed Income - Municipal-Municipal,14.23,15.33,-0.0718
+342,2023-07-12,MIO,Pioneer Municipal High Income Opp Fund,Fixed Income - Municipal-Municipal,10.99,12.47,-0.11869999999999999
+343,2023-07-12,MAV,Pioneer Municipal High Income Advantage,Fixed Income - Municipal-Municipal,7.95,9.24,-0.1396
+344,2023-07-12,MHI,Pioneer Municipal High Income,Fixed Income - Municipal-Municipal,8.61,10.0,-0.139
+345,2023-07-12,PMO,Putnam Muni Opportunities,Fixed Income - Municipal-Municipal,10.37,11.07,-0.0632
+346,2023-07-12,PMM,Putnam Managed Muni Income,Fixed Income - Municipal-Municipal,6.21,6.5,-0.0446
+347,2023-07-12,RMM,RiverNorth Managed Duration Muni Inc Fd,Fixed Income - Municipal-Municipal,15.36,16.27,-0.067
+348,2023-07-12,RMMZ,RiverNorth Manage Dur Muni Inc Fd II Inc,Fixed Income - Municipal-Municipal,16.4,17.24,-0.0592
+349,2023-07-12,RMI,RiverNorth Opp Muni Income Fund Inc,Fixed Income - Municipal-Municipal,16.4,17.17,-0.046
+350,2023-07-12,NDMO,Nuveen Dynamic Municipal Opportunities,Fixed Income - Municipal-Municipal,10.67,10.88,-0.021099999999999997
+351,2023-07-12,SBI,Western Asset Intermediate Muni,Fixed Income - Municipal-Municipal,7.66,8.92,-0.1435
+352,2023-07-12,MMU,Western Asset Managed Municipals,Fixed Income - Municipal-Municipal,10.0,11.52,-0.1354
+353,2023-07-12,MHF,Western Asset Municipal High Income,Fixed Income - Municipal-Municipal,6.48,7.18,-0.10310000000000001
+354,2023-07-12,MNP,Western Asset Municipal Partners,Fixed Income - Municipal-Municipal,11.771,13.63,-0.1401
+355,2023-07-12,NXP,Nuveen Select Tax Free Inc,Fixed Income - Municipal-Municipal,14.4,14.39,0.0
+356,2023-07-12,NMI,Nuveen Municipal Income,Fixed Income - Municipal-Municipal,9.4,9.82,-0.0437
+357,2023-07-12,NEA,Nuveen AMT-Free Quality Muni Inc,Fixed Income - Municipal-Municipal,10.91,12.58,-0.1341
+358,2023-07-12,NMCO,Nuveen Municipal Credit Opps Fund,Fixed Income - Municipal-Municipal,10.96,11.62,-0.06709999999999999
+359,2023-07-12,NAD,Nuveen Quality Muni Income Fund,Fixed Income - Municipal-Municipal,11.26,12.97,-0.1338
+360,2023-07-12,NUW,Nuveen AMT-Free Municipal Value Fund,Fixed Income - Municipal-Municipal,13.89,15.07,-0.0789
+361,2023-07-12,NZF,Nuveen Municipal Credit Income,Fixed Income - Municipal-Municipal,11.65,13.46,-0.1364
+362,2023-07-12,NVG,Nuveen AMT-Free Muni Credit Inc,Fixed Income - Municipal-Municipal,11.67,13.44,-0.1336
+363,2023-07-12,NCA,Nuveen CA Municipal Value,Fixed Income - Municipal-Municipal - CA,8.63,9.26,-0.068
+364,2023-07-12,NAC,Nuveen CA Quality Muni Income,Fixed Income - Municipal-Municipal - CA,10.85,12.6,-0.1389
+365,2023-07-12,NBW,Neuberger CA Municipal,Fixed Income - Municipal-Municipal - CA,10.72,12.62,-0.1506
+366,2023-07-12,VCV,Invesco CA Value,Fixed Income - Municipal-Municipal - CA,9.59,11.04,-0.1313
+367,2023-07-12,EVM,Eaton Vance CA Municipal Bond,Fixed Income - Municipal-Municipal - CA,8.925,10.3,-0.1335
+368,2023-07-12,CEV,Eaton Vance CA Muni Inc,Fixed Income - Municipal-Municipal - CA,10.01,11.62,-0.1386
+369,2023-07-12,BFZ,BlackRock CA Municipal Income,Fixed Income - Municipal-Municipal - CA,11.8,12.96,-0.0895
+370,2023-07-12,MUC,BlackRock MuniHoldings CA Qty,Fixed Income - Municipal-Municipal - CA,10.85,12.6,-0.1389
+371,2023-07-12,PCK,PIMCO CA Municipal Income II,Fixed Income - Municipal-Municipal - CA,5.92,6.52,-0.092
+372,2023-07-12,PCQ,PIMCO CA Municipal Income,Fixed Income - Municipal-Municipal - CA,9.9,10.28,-0.037000000000000005
+373,2023-07-12,PZC,PIMCO CA Municipal Income III,Fixed Income - Municipal-Municipal - CA,8.0,7.64,0.0471
+374,2023-07-12,NXC,Nuveen CA Select Tax Free Income,Fixed Income - Municipal-Municipal - CA,13.47,13.79,-0.0246
+375,2023-07-12,NKX,Nuveen CA AMT - Free Quality Muni Inc,Fixed Income - Municipal-Municipal - CA,11.53,13.03,-0.11720000000000001
+376,2023-07-12,NXN,Nuveen NY Select Tax Free Income,Fixed Income - Municipal-Municipal - NY,12.1952,12.65,-0.036000000000000004
+377,2023-07-12,NBO,Neuberger NY Municipal,Fixed Income - Municipal-Municipal - NY,9.54,11.19,-0.1475
+378,2023-07-12,VTN,Invesco Tr Inv Gr NY,Fixed Income - Municipal-Municipal - NY,10.22,11.9,-0.1412
+379,2023-07-12,MHN,BlackRock MuniHoldings NY Qty,Fixed Income - Municipal-Municipal - NY,10.37,12.06,-0.1401
+380,2023-07-12,MYN,BlackRock MuniYield NY Quality,Fixed Income - Municipal-Municipal - NY,10.04,11.64,-0.1375
+381,2023-07-12,BNY,BlackRock NY Municipal Income,Fixed Income - Municipal-Municipal - NY,10.23,11.96,-0.1446
+382,2023-07-12,ENX,Eaton Vance NY Municipal Bond,Fixed Income - Municipal-Municipal - NY,9.43,10.72,-0.12029999999999999
+383,2023-07-12,PYN,PIMCO NY Municipal Income III,Fixed Income - Municipal-Municipal - NY,6.27,6.74,-0.0697
+384,2023-07-12,PNI,PIMCO NY Municipal Income II,Fixed Income - Municipal-Municipal - NY,7.57,8.47,-0.1063
+385,2023-07-12,PNF,PIMCO NY Municipal Income,Fixed Income - Municipal-Municipal - NY,8.52,8.81,-0.0329
+386,2023-07-12,NRK,Nuveen NY AMT - Free Quality Muni Inc,Fixed Income - Municipal-Municipal - NY,10.33,11.96,-0.1384
+387,2023-07-12,NAN,Nuveen NY Quality Muni Inc,Fixed Income - Municipal-Municipal - NY,10.73,12.45,-0.1402
+388,2023-07-12,NNY,Nuveen NY Municipal Value,Fixed Income - Municipal-Municipal - NY,8.61,8.99,-0.0433
+389,2023-07-12,NAZ,Nuveen AZ Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,10.735,12.46,-0.1384
+390,2023-07-12,VPV,Invesco PA Value,Fixed Income - Municipal-Municipal - Single-State,9.870000000000001,11.56,-0.1462
+391,2023-07-12,BHV,BlackRock VA Municipal Bond,Fixed Income - Municipal-Municipal - Single-State,10.67,12.39,-0.1388
+392,2023-07-12,MPA,BlackRock MuniYield PA Quality,Fixed Income - Municipal-Municipal - Single-State,11.71,13.06,-0.10339999999999999
+393,2023-07-12,MIY,BlackRock MuniYield MI Quality,Fixed Income - Municipal-Municipal - Single-State,11.2,12.9,-0.1318
+394,2023-07-12,MUJ,BlackRock MuniHoldings NJ Qty,Fixed Income - Municipal-Municipal - Single-State,11.2,12.98,-0.1371
+395,2023-07-12,NQP,Nuveen PA Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,11.24,13.17,-0.1465
+396,2023-07-12,NOM,Nuveen MO Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,9.96,11.53,-0.1369
+397,2023-07-12,NMT,Nuveen MA Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,10.4399,12.14,-0.1422
+398,2023-07-12,NPV,Nuveen VA Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,10.86,12.31,-0.1199
+399,2023-07-12,NXJ,Nuveen NJ Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,11.57,13.58,-0.1499
+400,2023-07-12,NMS,Nuveen MN Quality Muni Inc,Fixed Income - Municipal-Municipal - Single-State,11.23,12.65,-0.1091
+401,2023-07-12,HGLB,Highland Global Allocation Fund,Hybrid-Global Allocation,8.59,11.48,-0.25170000000000003
+402,2023-07-12,GUG,Guggenheim Active Allocation Fund,Hybrid-Global Allocation,14.28,16.22,-0.11960000000000001
+403,2023-07-12,ECAT,BlackRock ESG Capital Allocation Term,Hybrid-Global Allocation,15.85,17.82,-0.1105
+404,2023-07-12,GLV,Clough Global Dividend and Income,Hybrid-Global Allocation,5.63,6.64,-0.1521
+405,2023-07-12,GLO,Clough Global Opportunities,Hybrid-Global Allocation,5.08,5.96,-0.1477
+406,2023-07-12,PGP,PIMCO Global StocksPLUS &amp; Income,Hybrid-Global Allocation,7.32,7.32,0.0
+407,2023-07-12,TBLD,Thornburg Income Builder Opp Trust,Hybrid-Global Allocation,15.26,17.75,-0.14029999999999998
+408,2023-07-12,ZTR,Virtus Total Return Fund Inc,Hybrid-Global Allocation,6.06,6.72,-0.0908
+409,2023-07-12,NRGX,PIMCO Energy &amp; Tactical Credit Opps,Hybrid-Global Allocation,16.0,18.8,-0.1516
+410,2023-07-12,JRI,Nuveen Real Asset Inc and Grwt,Hybrid-Global Allocation,11.52,13.46,-0.1536
+411,2023-07-12,NMAI,Nuveen Multi-Asset Income,Hybrid-Global Allocation,11.8,13.68,-0.1447
+412,2023-07-12,CGO,Calamos Global Total Return,Hybrid-Global Allocation,9.6152,10.17,-0.053099999999999994
+413,2023-07-12,CHW,Calamos Global Dynamic Income Fund,Hybrid-Global Allocation,6.19,6.66,-0.08109999999999999
+414,2023-07-12,ETO,Eaton Vance Tax-Advantaged Glbl Div Opp,Hybrid-Global Allocation,23.08,24.89,-0.0863
+415,2023-07-12,SCD,LMP Capital and Income,Hybrid-Global Allocation,12.72,14.73,-0.1439
+416,2023-07-12,MFV,MFS Special Value,Hybrid-U.S. Allocation,4.21,4.43,-0.049699999999999994
+417,2023-07-12,HTD,JHancock Tax-Advantaged Dividend Inc,Hybrid-U.S. Allocation,20.64,21.52,-0.0409
+418,2023-07-12,FT,Franklin Universal Trust,Hybrid-U.S. Allocation,6.86,7.61,-0.0986
+419,2023-07-12,GDL,GDL Fund,Hybrid-U.S. Allocation,7.87,10.2,-0.2284
+420,2023-07-12,GCV,Gabelli Conv Inc Secs,Hybrid-U.S. Allocation,4.309,4.24,0.0163
+421,2023-07-12,DMA,Destra Multi-Alternative,Hybrid-U.S. Allocation,5.16,10.65,-0.5155
+422,2023-07-12,DNIF,Dividend and Income Fund,Hybrid-U.S. Allocation,11.5145,17.74,-0.35090000000000005
+423,2023-07-12,FOF,Cohen &amp; Steers Closed-End Opportunity,Hybrid-U.S. Allocation,10.92,10.81,0.0102
+424,2023-07-12,BCAT,BlackRock Capital Allocation Term Trust,Hybrid-U.S. Allocation,15.42,17.22,-0.1045
+425,2023-07-12,SOR,Source Capital,Hybrid-U.S. Allocation,38.85,43.08,-0.09820000000000001
+426,2023-07-12,ACV,Virtus Diversified Inc &amp; Conv Fund,Hybrid-U.S. Allocation,20.21,21.46,-0.0582
+427,2023-07-12,NIE,Virtus Equity &amp; Convertible Inc Fund,Hybrid-U.S. Allocation,21.38,23.51,-0.0906
+428,2023-07-12,ERH,Allspring Util &amp; High In,Hybrid-U.S. Allocation,10.3628,11.15,-0.0706
+429,2023-07-12,TY,Tri-Continental,Hybrid-U.S. Allocation,27.85,31.46,-0.11470000000000001
+430,2023-07-12,TPZ,Tortoise Power and Energy Infrastructure,Hybrid-U.S. Allocation,13.42,15.71,-0.1528
+431,2023-07-12,RCG,RENN Fund ord,Hybrid-U.S. Allocation,1.8123,2.16,-0.1481
+432,2023-07-12,RIV,RiverNorth Opportunities Fund,Hybrid-U.S. Allocation,11.51,12.23,-0.059699999999999996
+433,2023-07-12,FINS,Angel Oak Financial Strats Income Term,Hybrid-U.S. Allocation,11.97,13.74,-0.1368
+434,2023-07-12,CSQ,Calamos Strategic Total Return,Hybrid-U.S. Allocation,14.92,14.69,-0.0014000000000000002
+435,2023-07-12,EVT,Eaton Vance Tax Advantaged Dividend Inc,Hybrid-U.S. Allocation,23.21,24.06,-0.0409
