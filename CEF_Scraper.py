@@ -16,7 +16,7 @@ def CEF_Webscrape(url):
     # Initalize the chrome web driver and reach out to the url
     options = Options()
     options.add_argument('--headless=new')
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager(version='114.0.5735.90').install()), options=options)
     driver.get(url)
 
     # Get the page's raw source content, write to to the 'DailyPricing.txt' file, and close the webdriver
