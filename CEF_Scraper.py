@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
 # Define the url to be searched from
-url = 'http://www.cefconnect.com/api/v3/DailyPricing?props=LastUpdated,Name,CategoryName,Ticker,Price,NAV,Discount'
+url = 'http://www.cefconnect.com/api/v3/DailyPricing'
 
 # Reference the locaiton of the 'DailyPricing.txt' file
 file_path = r'Raw_JSON/DailyPricing.txt'
@@ -21,7 +21,7 @@ def CEF_Webscrape(url):
 
     # Get the page's raw source content, write to to the 'DailyPricing.txt' file, and close the webdriver
     pagesource = driver.page_source
-    f1 = open(r'Raw_JSON/DailyPricing.txt', 'w')
+    f1 = open(file_path, 'w')
     f1.write(pagesource)
     f1.close()
     driver.quit()
@@ -81,10 +81,6 @@ def CEF_Cleaning():
                                                 'CategoryName': 'Category',
                                                 'Price': 'Share Price',
                                                 'Discount': 'Premium / Discount'})
-
-    # Reorder the columns, print the first five rows of data for visual assurance
-    CEFData = CEFData[['Date', 'Ticker', 'Fund Name', 'Category', 'Share Price', 'NAV', 'Premium / Discount']]
-    # print(CEFData.head())
     
     # Export to individual CSV file
     CEFData.to_csv(r'Daily_Pricing/DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
@@ -98,18 +94,18 @@ CEF_Cleaning()
 
 def CEF_Consolidating():
 
-    # Append newly-compiled data to exising DailyPricing.csv consolidated worksheet
-    with open(r'DailyPricing.csv', 'r') as DailyPricing:
+    # Append newly-compiled data to exising DailyPricingFull.csv consolidated worksheet
+    with open(r'DailyPricingFull.csv', 'r') as DailyPricing:
         
-        # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricing.csv consolidated worksheet, and print helpful note
+        # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricingFull.csv consolidated worksheet, and print helpful note
         if pd.read_csv(DailyPricing)['Date'].iloc[-1] == CEFData['Date'].iloc[0]:
-            print('[100%] Dataset previously consolidated to DailyPricing.csv')
+            print('[100%] Dataset previously consolidated to DailyPricingFull.csv')
             exit()
         
-        # If newly-compiled data does not exist (based on the last updated date), append to DailyPricing.csv consolidated worksheet, and print helpful note
+        # If newly-compiled data does not exist (based on the last updated date), append to DailyPricingFull.csv consolidated worksheet, and print helpful note
         else:
-            CEFData.to_csv(r'DailyPricing.csv', mode='a', index=True, header=False)
-            print('[100%] Dataset consolidated to DailyPricing.csv')
+            CEFData.to_csv(r'DailyPricingFull.csv', mode='a', index=True, header=False)
+            print('[100%] Dataset consolidated to DailyPricingFull.csv')
 
 # Append the CEF Daily Pricing dataset to the Consolidated CEF CSV file
 CEF_Consolidating()
