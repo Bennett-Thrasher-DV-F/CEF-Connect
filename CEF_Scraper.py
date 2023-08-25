@@ -1,8 +1,6 @@
 # Import packages
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager 
 import pandas as pd
 
 # Define the url to be searched from
@@ -14,9 +12,9 @@ file_path = r'Raw_JSON/DailyPricing.txt'
 def CEF_Webscrape(url):
 
     # Initalize the chrome web driver and reach out to the url
-    options = Options()
-    options.add_argument('--headless=new')
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager(version='114.0.5735.90').install()), options=options)
+    service = Service()
+    options = webdriver.ChromeOptions()
+    driver = webdriver.Chrome(service=service, options=options)
     driver.get(url)
 
     # Get the page's raw source content, write to to the 'DailyPricing.txt' file, and close the webdriver
@@ -96,7 +94,7 @@ def CEF_Consolidating():
 
     # Append newly-compiled data to exising DailyPricingFull.csv consolidated worksheet
     with open(r'DailyPricingFull.csv', 'r') as DailyPricing:
-        
+
         # If newly-compiled data already exists (based on the last updated date), don't append to DailyPricingFull.csv consolidated worksheet, and print helpful note
         if pd.read_csv(DailyPricing)['Date'].iloc[-1] == CEFData['Date'].iloc[0]:
             print('[100%] Dataset previously consolidated to DailyPricingFull.csv')
