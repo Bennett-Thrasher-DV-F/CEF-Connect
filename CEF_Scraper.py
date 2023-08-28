@@ -14,6 +14,7 @@ def CEF_Webscrape(url):
     # Initalize the chrome web driver and reach out to the url
     service = Service()
     options = webdriver.ChromeOptions()
+    options.add_argument('--headless=new')    
     driver = webdriver.Chrome(service=service, options=options)
     driver.get(url)
 
