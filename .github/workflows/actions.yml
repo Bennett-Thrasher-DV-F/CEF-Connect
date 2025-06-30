@@ -27,7 +27,7 @@ jobs:
       - name: Execute Python Script # run CEF_Scraper.py
         run: python CEF_Scraper.py
       
-      - name: Configure Git User
+      - name: Configure Git User # added on 6-30-2025
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
