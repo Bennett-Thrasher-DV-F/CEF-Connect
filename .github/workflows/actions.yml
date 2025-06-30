@@ -2,7 +2,7 @@ name: run CEF_Scraper.py
 
 on:
   schedule:
-    - cron: '0 13 * * 1-5' # At 11:00 on every day-of-week from Monday through Friday
+    - cron: '0 13 * * 1-5' # At 13:00 UTC (7:00 AM MST) on every day-of-week from Monday through Friday
 
 jobs:
   build:
@@ -26,11 +26,17 @@ jobs:
           
       - name: Execute Python Script # run CEF_Scraper.py
         run: python CEF_Scraper.py
-          
-      - name: Commit Files to Repository
+      
+      - name: Configure Git User
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
+      - name: Pull remote changes (rebase)
+        run: git pull --rebase origin main # integrate any new commits from main
+   
+      - name: Commit Files to Repository
+        run: |
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated" --allow-empty)
           
