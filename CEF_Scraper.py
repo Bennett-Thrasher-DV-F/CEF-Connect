@@ -2,6 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pandas as pd
+import html
 
 # Define the url to be searched from
 url = 'http://www.cefconnect.com/api/v3/DailyPricing'
@@ -80,6 +81,14 @@ def CEF_Cleaning():
                                                 'CategoryName': 'Category',
                                                 'Price': 'Share Price',
                                                 'Discount': 'Premium / Discount'})
+ 
+    # Decode HTML entities and fix stray encoding artifacts in Fund Name
+    CEFData['Fund Name'] = (
+        CEFData['Fund Name']
+        .apply(lambda x: html.unescape(str(x)))   # decode HTML entities
+        .str.replace('Â', '', regex=False)        # remove stray "Â"
+        .str.strip()
+    )
     
     # Export to individual CSV file
     CEFData.to_csv(r'Daily_Pricing/DailyPricing-'+str(CEFData['Date'].iloc[0])+'.csv')
